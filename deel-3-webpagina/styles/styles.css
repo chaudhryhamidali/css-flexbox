@@ -1,1 +1,64 @@
 /*Schrijf hier jouw css*/
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f3d9;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #030027;
+    color: #E6EAEB;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-basis: 1500px;
+}
+.li-1{
+    display: flex;
+    flex-basis: 700px;
+}
+.div-1{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 700px;
+}
+header{
+    margin: 40px;
+}
+.main-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 350px;
+
+}
+.art-1{
+    display: flex;
+    align-items: flex-end;
+    background-color: #c16e70;
+    flex-basis: 280px;
+    margin: 20px;
+
+}
+.art-2{
+    display: flex;
+    align-items: flex-end;
+    background-color: #c16e70;
+    flex-basis: 280px;
+    margin: 20px;
+}
+.art-3{
+    display: flex;
+    align-items: flex-end;
+    background-color: #c16e70;
+    flex-basis: 280px;
+    margin: 20px;
+}
