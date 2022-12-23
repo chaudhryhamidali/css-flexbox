@@ -1,1 +1,40 @@
 /*Schrijf hier jouw CSS*/
+
+
+/*Schrijf hier jouw CSS*/
+@import url(http://localhost:63342/frontend-html-css-flexbox/deel-2-flexbox-layout/opdracht-3/index.html?_ijt=j9k1v7s0eqq3nj8vmh6i5o2ldt&_ij_reload=RELOAD_ON_SAVE);
+
+.body3{
+    display: flex;
+    flex-basis: auto;
+
+}
+.col-1{
+    display: flex;
+    flex-basis: 200px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1300px;
+}
+.header-3{
+    flex-basis: 100px;
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 600px;
+}
+.article-3{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.aside-3{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.footer-3
+{
+    flex-basis: 100px;
+}

@@ -1,1 +1,73 @@
 /*Schrijf hier jouw CSS*/
+@import url (http://localhost:63342/frontend-html-css-flexbox/deel-1-flexbox-positioneren/index.html?_ijt=dh5qmdfdq9ktueu66gq3obcar4&_ij_reload=RELOAD_ON_SAVE);
+
+
+.opdracht-1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.opdracht-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.opdracht-2 li{
+    flex-basis: 300px;
+}
+.opdracht-3 ul{
+    display: flex;
+    flex-direction: column;
+}
+.li2{
+    align-self: center;
+}
+.li3{
+    align-self: flex-end;
+}
+.opdracht-4{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.opdracht-5 {
+    display: flex;
+    border: dashed 2px orange;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 1800px;
+}
+.col1{
+    border: dashed 2px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 900px;
+
+}
+.col2{
+    border: dashed 2px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 900px;
+}
+.col3{
+    border: dashed 2px yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 900px;
+}/*Schrijf hier jouw CSS*/

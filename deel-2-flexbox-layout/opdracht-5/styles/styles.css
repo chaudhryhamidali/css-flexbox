@@ -1,1 +1,40 @@
 /*Schrijf hier jouw CSS*/
+
+.body5{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+.header-5{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+}
+.main-5{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 550px;
+}
+
+.article-5{
+
+    flex-direction: row;
+    flex-basis: 1100px;
+    order: 1;
+}
+.nav-5{
+
+    flex-direction: row;
+    flex-basis: 250px;
+    order: 1;
+}
+.aside-5{
+    flex-basis: 250px;
+    flex-direction: row;
+}
+.footer-5{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+}
